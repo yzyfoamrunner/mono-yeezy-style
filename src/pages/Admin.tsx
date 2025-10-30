@@ -29,7 +29,7 @@ const Admin = () => {
   useEffect(() => {
     const savedPassword = getAdminPassword();
     if (!savedPassword) {
-      const newPassword = "admin123";
+      const newPassword = "SHOP";
       setAdminPassword(newPassword);
       toast({
         title: "ADMIN PASSWORD SET",
